@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Uniman Heavy';
+    src: url('fonts/Uniman-Heavy.eot');
+    src: url('fonts/Uniman-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Uniman-Heavy.woff2') format('woff2'),
+        url('fonts/Uniman-Heavy.woff') format('woff'),
+        url('fonts/Uniman-Heavy.svg#Uniman-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Uniman Bold';
+    src: url('fonts/Uniman-Bold.eot');
+    src: url('fonts/Uniman-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Uniman-Bold.woff2') format('woff2'),
+        url('fonts/Uniman-Bold.woff') format('woff'),
+        url('fonts/Uniman-Bold.svg#Uniman-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #e0ac7b;
+    background-image: url('images/bg.png');
+    font-family: 'Uniman Bold';
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fff;
+    background-image: url('images/header_bg.jpg');
+    background-size: 1280px;
+    height: 680px;
+    align-content: center;
+}
+
+#logo_icon {
+    width: 150px;
+}
+
+nav {
+    background-color: #000;
+    background-image: url('images/nav_bar.png');
+    height: 104px;
+    text-align: center;
+}
+
+main {
+    background-color: #f0e1cc;
+    font-family: 'Cambria Math';
+    font-size: 18pt;
+}
+
+#main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrap {
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.food-menu-wrapper {
+    flex-wrap: wrap; /* hugs images together */
+}
+
+.location-wrapper {
+    text-shadow: 2px 3px 4px #000;
+    font-weight: bold;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 636px;
+    padding: 2em;
+    justify-content: center;
+}
+
+#location-bg {
+    background-image: url('images/location_bg.png');
+    background-size: 1280px;
+    color: white;
+}
+
+.contact-wrapper {
+    font-weight: bold;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: right;
+}
+
+.about-wrapper {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.about-wrapper img{
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Uniman Heavy';
+    font-size: 60pt;
+    letter-spacing: -5px;
+    margin: 0;
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Uniman Bold';
+    font-size: 22pt;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 22pt;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+}
+
+a {
+    color: white;
+    font-size: 24pt;
+    display: inline-block;
+    margin-top: 24px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+a:hover {
+    color: rgb(255, 96, 96);
+}
+
+footer {
+    background-color: #000;
+    background-image: url('images/footer-bg.png');
+    background-size: 1280px;
+    height: 170px;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+
+/* form stuff*/
+input[type="text"], input[type="email"], input[type="tel"]{
+    font-family: 'Uniman Bold';
+    width: 100%;
+    height: 35px;
+    font-size: 16pt;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+label {
+    font-size: 24pt;
+}
+
+textarea {
+    font-family: 'Uniman Bold';
+    font-size: 16pt;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    font-family: 'Uniman Bold';
+    font-size: 15pt;
+    width: 150px;
+    background-color: rgb(201, 49, 49);
+    color: white;
+    padding: 10px 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover{
+    background-color: rgb(243, 87, 87);
+  }

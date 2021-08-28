@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>KITAKATA Ramen Ban Nai</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slider.css">
+
+</head>
+
+<body>
+    <header>
+        <h1><img src="images/logo_icon.png" width="200">KITAKATA RAMEN<br>BAN NAI</h1>
+    </header>
+    <nav>
+        <a href="">Order Now</a>
+        <a href="">Menu</a>
+        <a href="">Locations</a>
+        <a href="">Contact Us</a>
+        <a href="">About</a>
+    </nav>
+
+    <main>
+        <div id="main-wrapper">
+
+            <!-- Food Menu -->
+            <div class="section-wrapper">
+                <h2>KITAKATA MENU</h1>
+                    <div class="food-menu-wrapper">
+                        <h3>Appetizers</h3>
+                        <!-- Slider for appetizers-->
+                        <div class='slider'>
+
+                            <input checked id='slide-1' name='active' type='radio'>
+                            <div class='slide'>
+                                <img src="images/appetizers/app1.jpg" width="640" height="391"><img
+                                    src="images/appetizers/app2.jpg" width="640" height="391">
+                            </div>
+                            <nav class='nav-slider'>
+                                <label class='prev' for='slide-2'></label>
+                                <label class='next' for='slide-2'></label>
+                            </nav>
+
+                            <input id='slide-2' name='active' type='radio'>
+                            <div class='slide'>
+                                <img src="images/appetizers/app3.jpg" width="640" height="391"><img
+                                    src="images/appetizers/app4.jpg" width="640" height="391">
+                            </div>
+                            <nav class='nav-slider'>
+                                <label class='prev' for='slide-1'></label>
+                                <label class='next' for='slide-1'></label>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-wrapper">
+                        <h3>Ramen</h3>
+                        <!-- Slider for Ramen!-->
+                        <div class='slider'>
+                            <input checked id='slide-4' name='active2' type='radio'>
+                            <div class='slide'>
+                                <img src="images/ramen/ramen1.jpg" width="640" height="391"><img
+                                    src="images/ramen/ramen2.jpg" width="640" height="391">
+                            </div>
+                            <nav class='nav-slider'>
+                                <label class='prev' for='slide-6'></label>
+                                <label class='next' for='slide-5'></label>
+                            </nav>
+
+                            <input id='slide-5' name='active2' type='radio'>
+                            <div class='slide'>
+                                <img src="images/ramen/ramen3.jpg" width="640" height="391"><img
+                                    src="images/ramen/ramen4.jpg" width="640" height="391">
+                            </div>
+                            <nav class='nav-slider'>
+                                <label class='prev' for='slide-4'></label>
+                                <label class='next' for='slide-6'></label>
+                            </nav>
+
+                            <input id='slide-6' name='active2' type='radio'>
+                            <div class='slide'>
+                                <img src="images/ramen/ramen5.jpg" width="640" height="391"><img
+                                    src="images/ramen/ramen6.jpg" width="640" height="391">
+                            </div>
+                            <nav class='nav-slider'>
+                                <label class='prev' for='slide-5'></label>
+                                <label class='next' for='slide-4'></label>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="food-menu-wrapper">
+                        <h3>Rice Bowls</h3>
+                        <!-- Slider for rice bowls-->
+                        <div class='slider'>
+                            <input checked id='slide-7' name='active3' type='radio'>
+                            <div class='slide'>
+                                <img src="images/bowls/bowl1.jpg" width="640" height="391"><img
+                                    src="images/bowls/bowl2.jpg" width="640" height="391">
+                            </div>
+                            <nav class='nav-slider'>
+                                <label class='prev' for='slide-8'></label>
+                                <label class='next' for='slide-8'></label>
+                            </nav>
+
+                            <input id='slide-8' name='active3' type='radio'>
+                            <div class='slide'>
+                                <img src="images/bowls/bowl3.jpg" width="640" height="391"><img
+                                    src="images/bowls/bowl5.jpg" width="640" height="391">
+                            </div>
+                            <nav class='nav-slider'>
+                                <label class='prev' for='slide-7'></label>
+                                <label class='next' for='slide-7'></label>
+                            </nav>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Restaurant Locations -->
+            <div class="section-wrapper">
+                <div id="location-bg">
+                    <h2>LOCATIONS</h1>
+                        <div class="location-wrapper">
+                            <img src="images/map.jpg">
+                            <p>
+                                ILLINOIS<br>
+                                1129 N. Roselle Rd, Hoffman Estates, IL 60169<br>
+                                847-744-6425
+                            </p>
+                        </div>
+                        <div class="location-wrapper">
+                            <img src="images/map.jpg">
+                            <p>
+                                NEW YORK<br>
+                                267 Amsterdam Ave, New York, NY 100239<br>
+                                212-721-1000
+                            </p>
+                        </div>
+                        <div class="location-wrapper">
+                            <img src="images/map.jpg">
+                            <p>
+                                CALIFORNIA<br>
+                                18884 Brookhurst St., Fountain Valley, CA 92708<br>
+                                714-884-3124
+                            </p>
+                        </div>
+                        <div class="location-wrapper">
+                            <img src="images/map.jpg">
+                            <p>
+                                CALIFORNIA<br>
+                                891 Baker St. B21, Costa Mesa, CA 92626<br>
+                                714-557-2947
+                            </p>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="section-wrapper">
+                <h2>CONTACT</h1>
+                    <div class="contact-wrapper">
+                        <div class="content-wrap">
+                            <form>
+                                <label>Name</label><br>
+                                <input type="text"><br>
+
+                                <label>E-mail</label><br>
+                                <input type="email"><br>
+
+                                <label>Phone</label><br>
+                                <input type="tel"><br>
+
+                                <label>Inquiry</label><br>
+                                <textarea></textarea><br>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contact-wrapper">
+                        <p>
+                            Comments, questions, need a reservation?<br>
+                            Don't hesitate to call us!
+                        <br><br>
+                            <b>Company Name: </b>Mensyoku U.S.A. Inc.<br>
+                            <b>DBA: </b>Kitakata Ramen Ban Nai
+                        </p>
+                    </div>
+            </div>
+
+            <!-- About -->
+            <div class="section-wrapper">
+                <h2>ABOUT US</h1>
+                    <div class="about-wrapper">
+                        <p>
+                            Kitakata Ramen is widely known and beloved for its distinctive noodle, made by local noodle
+                            manufactures, and flavorful soup made with the mountain spring water from neighboring Iide
+                            Mountain. “Ban Nai” is the most popular and well-known eatery of Kitakata Ramen with history
+                            for
+                            over half a century. With flat, wide and hand-crumpled curly noodle, clear but flavorful
+                            broth,
+                            and signature “Toro Chashu”, Kitakata Ramen Ban Nai has been providing the real Kitakata
+                            Ramen.
+                        </p>
+                        <img src="images/about3.jpg"><br><br>
+                        <img src="images/about1.jpg"><img src="images/about2.jpg">
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+
+</html>
